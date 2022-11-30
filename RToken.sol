@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+//use OpenZeppelin ERC20 standards, instead of writing your own from zero - import from github
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
 contract ROZZYToken is ERC20 {
