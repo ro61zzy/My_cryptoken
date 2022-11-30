@@ -11,3 +11,4 @@ contract ROZZYToken is ERC20 {
         _mint(msg.sender, 10 * 10**18);
     }
 }
+//
